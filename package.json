@@ -1,0 +1,32 @@
+{
+    "name": "My First Express Server",
+    "version": "0.0.1",
+    "description": "Mijn eerste Express server",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "nodejs",
+        "express",
+        "avans",
+        "programmeren-4"
+    ],
+    "author": "Mark van der Velden",
+    "license": "ISC",
+    "prettier": {
+        "singleQuote": true,
+        "trailingComma": "none",
+        "semi": false,
+        "tabWidth": 4
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "chai" :  "^4.3.10"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}
